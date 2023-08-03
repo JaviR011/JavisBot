@@ -1,5 +1,5 @@
 #pip install pyTelegramBotAPI   
-
+#https://t.me/nya_cats
 import telebot
 import random
 bot = telebot.TeleBot("6413251424:AAHGMsUOf76-vSiiSWe0sgbqtd7gezPY9GM")
