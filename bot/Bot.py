@@ -52,4 +52,9 @@ def handle_enviar_imagen(message):
     except Exception as e:
         bot.reply_to(message,"¡Error al saludar!")
 
+# Maneja todos los demás mensajes
+@bot.message_handler(func=lambda message: True)
+def send_joke(message):
+    bot.reply_to(message, "Esperando instruccion....")
+
 bot.polling()
